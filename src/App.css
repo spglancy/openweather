@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -23,11 +27,32 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 15px;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.container {
+  background-color: rgb(151, 150, 150);
+  width: 60vw;
+  height: 50vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  margin: auto;
 }
